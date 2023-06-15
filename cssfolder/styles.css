@@ -91,7 +91,7 @@ h1{
 }
 
 .button1{
-    width: 20%;
+    width: 25%;
     color: black;
     background-color: blue;
     height: 50px;
@@ -145,7 +145,7 @@ h2, label, address {
 
 .input1, .email {
     width: 80%;
-    padding: 15px 0 15px 0;
+    padding: 10px 0 10px 0;
     border: 1px solid rgb(25, 25, 88);
     outline-style: none;
     border-radius: 5px;
@@ -202,7 +202,6 @@ a.icons {
     margin: 0%;
     
 }
-
 /*Tablet styles (max-width: 768px) Mobile styles (max-width: 414px) */
 @media only screen and (max-width: 720px) {
     
@@ -251,9 +250,6 @@ p{
     margin-top: 0px;
 }
 
-.socials{
-    margin-left: 10%;
-}
 .button-div{
     margin: 0px auto;
 }
