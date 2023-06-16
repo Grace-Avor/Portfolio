@@ -53,18 +53,24 @@
         <div class="About1">
             <p class="Ps"> I am Medical Laboratory Scientist with focus in Chemical Pathology. I studied the mechanism of
             body processes in relation to diseases. </p>
-            <img src="images/lab.jpg" class="images" alt="Laboratory">
+            <div class="image-container">
+                <img src="images/lab.jpg" class="images" alt="Laboratory">
+            </div>
         </div>
         <div class="About2">
             <p class="Ps">I developed passion for software engineering and presently focused in frontend development
                 but I believe this is just the beginning.
             </p>
+            <div class="image-container">
             <img src="images/laptop.jpg" class="images" alt="Laptop">
+            </div>
         </div>
         <div class="About3">
             <p class="Ps">If you don't find me creating arts with several lines of code, then I'm in the laboratory saving 
                 lifes. Aside these, I see movies to help me relax.</p>
+            <div class="image-container">
             <img src="images/Netflix.jpg" class="images" alt="Netflix">
+            </div>
         </div>
     </div>
 
@@ -94,12 +100,12 @@
     
   <div class="contactdiv">
     <h2 id="contact">Get In Touch</h2>
-    <p id="result">Email: graceavor2021@gmail.com</p>
+    <p id="result" class="mail"></p>
     <form id="myForm">
         <input type="text" id="name" name="name"  placeholder="Name" class="input1" required><br>
         <input type="email" id="Email" name="Email" placeholder="Email" class="email" required> <br>
         <textarea id="comment" cols="20" rows="5" placeholder="Message" class="inputcomment" required ></textarea> <br>
-        <input type="submit" onclick="submitForm(event)" value="send" class="submit">
+        <button type="submit" class="submit"> send </button>
     </form>
   </div>
 </div>

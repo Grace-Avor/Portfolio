@@ -1,13 +1,14 @@
+const myForm = document.getElementById("myForm");
+const result = document.getElementById("result");
+
+myForm.addEventListener("submit", (e)=> {
+  e.preventDefault()
+  result.textContent = "Thank you for reaching out"
+
+})
+
+
 function darkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
   }
-
-  var myForm = document.getElementById("myForm");
-      var result = document.getElementById("result");
-      function submitForm(event) {
-         event.preventDefault();
-         myForm.submit();
-
-         result.innerHTML = "<b>Thank you for reaching out</b>"
-      }

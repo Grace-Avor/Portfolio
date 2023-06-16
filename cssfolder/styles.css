@@ -58,8 +58,9 @@ p{
 }
 
 .Ps{
-    height: auto;
+    height: 150px;
 }
+
 .flexcontainer{
     display: flex;
     flex-direction: row;
