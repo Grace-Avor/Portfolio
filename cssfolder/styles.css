@@ -34,12 +34,20 @@ a {
     
 }
 
-.fa-solid{
+.fa-moon{
     margin-top: 0%;
     color: white;
     font-size: 20px;
     cursor: pointer;
     margin-left: 40px;
+}
+
+.fa-user{
+    float: left;
+}
+
+li.moon{
+    width: 50%;
 }
 .dark-mode{
     background-color: black;
