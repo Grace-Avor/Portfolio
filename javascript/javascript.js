@@ -1,11 +1,10 @@
-const myForm = document.getElementById("myForm");
+/*const myForm = document.getElementById("myForm");
 const result = document.getElementById("result");
-
 myForm.addEventListener("submit", (e)=> {
   e.preventDefault()
   result.textContent = "Thank you for reaching out"
 
-})
+})*/
 
 
 function darkMode() {
