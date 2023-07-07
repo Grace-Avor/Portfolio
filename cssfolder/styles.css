@@ -106,13 +106,13 @@ h1 {
   justify-content: center;
   align-items: center;
   float: left;
-  color: #885df1;
+  color: #b4b4e4;
   font-size: 16px;
   background: transparent;
   padding: 15px 20px;
   margin: 25px auto;
   border-radius: 30px;
-  border: 1px solid #885df1;
+  border: 1px solid rgb(25, 25, 88);
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -175,12 +175,12 @@ address {
 }
 
 .submit {
-  border: 1px solid #885df1;
+  border: 1px solid rgb(25, 25, 88);
   border-radius: 5px;
   width: 22%;
   height: 30px;
   margin-bottom: 10px;
-  color: #885df1;
+  color: #b4b4e4;
   background-color: #0c005a;
 }
 
