@@ -1,6 +1,6 @@
 body {
   /*background-image: url(background-image2.jpeg);*/
-  background-color: rgb(2, 2, 48);
+  background-color: #0c005a;
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -50,7 +50,7 @@ li.moon {
   width: 50%;
 }
 .dark-mode {
-  background-color: black;
+  background:black;
 }
 
 .image1 {
@@ -101,19 +101,19 @@ h1 {
   font-size: 1.7rem;
   padding: 0px 20px 20px 20px;
 }
-
 .button1 {
-  width: 25%;
-  color: black;
-  background-color: blue;
-  height: 50px;
-  box-shadow: 3px 3px 3px 2px black;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   float: left;
-  margin: 5% 0 20% 0;
+  color: #885df1;
+  font-size: 16px;
+  background: transparent;
+  padding: 15px 20px;
+  margin: 25px auto;
+  border-radius: 30px;
+  border: 1px solid #885df1;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 h2,
@@ -156,7 +156,7 @@ address {
   border: 1px solid rgb(25, 25, 88);
   border-radius: 5px;
   outline-style: none;
-  background-color: rgb(2, 2, 48);
+  background-color: #0c005a;
   color: #b4b4e4;
 }
 
@@ -168,19 +168,20 @@ address {
   outline-style: none;
   border-radius: 5px;
   margin-bottom: 15px;
-  background-color: rgb(2, 2, 48);
+  background-color: #0c005a;
   color: #b4b4e4;
   font-family: Poppins, sans-serif;
   font-size: 100%;
 }
 
 .submit {
-  background-color: blue;
-  border: none;
+  border: 1px solid #885df1;
   border-radius: 5px;
   width: 22%;
   height: 30px;
   margin-bottom: 10px;
+  color: #885df1;
+  background-color: #0c005a;
 }
 
 ul.courselist li {
