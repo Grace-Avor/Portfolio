@@ -183,7 +183,9 @@ address {
   color: #b4b4e4;
   background-color: #0c005a;
 }
-
+.submit a:hover {
+  cursor: pointer;
+}
 ul.courselist li {
   padding-top: 15px;
   color: #b4b4e4;
