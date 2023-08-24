@@ -58,15 +58,13 @@ li.moon {
   margin-left: 32%;
   border-radius: 5px;
 }
-
 p {
-  text-align: justify;
   color: #b4b4e4;
-  line-height: 25px;
 }
-
 .Ps {
   height: 150px;
+  text-align: justify;
+  line-height: 25px;
 }
 
 .flexcontainer {
@@ -89,6 +87,7 @@ p {
 .Aboutme,
 .projects {
   text-align: center;
+  margin-top: 50px;
 }
 
 .project-container {
