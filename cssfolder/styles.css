@@ -30,10 +30,9 @@ a {
   text-decoration: none;
   color: #ce9b01;
   float: right;
-  margin-top: -12px;
-  margin-left: 50px;
+  /* margin-top: -12px;
+  margin-left: 50px;*/
 }
-
 .fa-moon {
   margin-top: 0%;
   color: white;
