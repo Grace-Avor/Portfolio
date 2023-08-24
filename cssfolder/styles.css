@@ -15,9 +15,10 @@ html {
   font-family: Poppins, sans-serif;
 }
 .main {
-  margin: 0 auto 100px;
+  margin: 0 auto;
   padding: 10px;
-  max-width: 1200px;
+  font-size: 30px;
+  float: right;
 }
 ul {
   list-style: none;
@@ -28,36 +29,22 @@ ul {
 
 a {
   text-decoration: none;
-  color: #ce9b01;
-  float: right;
-  /* margin-top: -12px;
-  margin-left: 50px;*/
 }
-.fa-moon {
-  margin-top: 0%;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  margin-left: 40px;
-}
-
-.fa-user {
+li.live {
+  margin-left: -40px;
   float: left;
 }
-
-li.moon {
-  width: 50%;
+.fa-user {
+  float: left;
+  color: #ce9b01;
 }
-.dark-mode {
-  background: black;
-}
-
 .image1 {
   width: 230px;
   margin-left: 32%;
   border-radius: 5px;
 }
-p {
+p,
+.a-of-portfolio {
   color: #b4b4e4;
 }
 .Ps {
@@ -65,7 +52,9 @@ p {
   text-align: justify;
   line-height: 25px;
 }
-
+.portfolio-course-Ps {
+  margin-top: -25px;
+}
 .flexcontainer {
   display: flex;
   flex-direction: row;
@@ -94,7 +83,7 @@ p {
 }
 .buttom-center {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 10%;
   right: 10%;
 }
@@ -146,18 +135,17 @@ address {
   height: 200px;
   border-radius: 5px;
 }
+.courselist,
+.skills {
+  font-family: Poppins, sans-serif;
+  font-size: 100%;
+}
 .contactdiv,
 .course,
 .additonal {
   width: 30%;
   margin-top: 100px;
   height: 450px;
-}
-
-.courselist,
-.skills {
-  font-family: Poppins, sans-serif;
-  font-size: 100%;
 }
 
 .inputcomment {
@@ -191,13 +179,7 @@ address {
   color: #b4b4e4;
   background-color: #0c005a;
 }
-
-ul.courselist li {
-  padding-top: 15px;
-  color: #b4b4e4;
-  list-style: square;
-}
-
+ul.courselist li,
 ul.skills li {
   padding-top: 15px;
   color: #b4b4e4;
@@ -292,11 +274,7 @@ a.icons {
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  a {
-    margin-top: -12px;
-    margin-left: 10px;
-  }
-  ul.main {
+  .main {
     margin-left: -40px;
   }
   h3,
