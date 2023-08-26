@@ -15,11 +15,12 @@ html {
   font-family: Poppins, sans-serif;
 }
 .main {
+  display: block;
   position: relative;
   margin: 0 auto;
   padding: 10px;
   font-size: 15px;
-  left: 95%;
+  float: right ;
 }
 
 ul {
