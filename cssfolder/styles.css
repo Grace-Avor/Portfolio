@@ -1,26 +1,19 @@
-body {
-  /*background-image: url(background-image2.jpeg);*/
-  background-color: #000080;
-  background-repeat: no-repeat;
-  height: 100%;
-}
 * {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
+}
+
+body {
+  /*background-image: url(background-image2.jpeg);*/
+  background-color: #0a192f;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 html {
   scroll-behavior: smooth;
   height: 100%;
   font-family: Poppins, sans-serif;
-}
-.main {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  padding: 10px;
-  font-size: 15px;
-  float: right ;
 }
 
 ul {
@@ -33,32 +26,68 @@ ul {
 a {
   text-decoration: none;
 }
+
+h2,
+label,
+address {
+  color: #ccd6f6;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #ccd6f6;
+}
+.intro {
+  color: #50d8b8;
+}
+
+.name {
+  color: #ccd6f6;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.main {
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  top: 10px;
+  left: 90%;
+}
+
 li.live {
   margin-left: -40px;
   float: left;
 }
+
 .fa-user {
-  float: left;
-  color: #ce9b01;
+  color: #50d8b8;
 }
+
 .image1 {
   width: 230px;
   margin-left: 32%;
   border-radius: 5px;
 }
+
 p,
 .a-of-portfolio {
-  color: #b4b4e4;
+  color: #384860;
 }
+
 .Ps {
   height: 150px;
   text-align: justify;
   line-height: 25px;
 }
+
 .portfolio-course-Ps {
   margin-top: -25px;
 }
+
 .flexcontainer {
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -70,11 +99,13 @@ p,
   flex-direction: row;
   justify-content: space-around;
 }
+
 .About1,
 .About2,
 .About3 {
   width: 30%;
 }
+
 .Aboutme,
 .projects {
   text-align: center;
@@ -84,6 +115,7 @@ p,
 .project-container {
   position: relative;
 }
+
 .buttom-center {
   position: absolute;
   top: 10%;
@@ -98,36 +130,21 @@ p,
   align-items: center;
   padding: 0px 20px 20px 20px;
 }
-h1 {
-  color: #ce9b01;
-  font-size: 1.7rem;
-  padding: 0px 20px 20px 20px;
-}
 .button1 {
   display: flex;
   justify-content: center;
   align-items: center;
   float: left;
-  color: #b4b4e4;
+  color: #50d8b8;
   font-size: 16px;
   background: transparent;
   padding: 15px 20px;
   margin: 25px auto;
   border-radius: 30px;
-  border: 1px solid rgb(25, 25, 88);
+  border: 1px solid #50d8b8;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-h2,
-label,
-address {
-  color: #b4b4e4;
-  font-family: Poppins, sans-serif;
-  font-size: 1.5rem;
-}
-h3{
-  color: #b4b4e4;
-}
 .flexcontainer2 {
   display: flex;
   flex-direction: row;
@@ -135,16 +152,19 @@ h3{
   flex-wrap: wrap;
   align-items: center;
 }
+
 .images {
   width: 100%;
   height: 200px;
   border-radius: 5px;
 }
+
 .courselist,
 .skills {
   font-family: Poppins, sans-serif;
   font-size: 100%;
 }
+
 .contactdiv,
 .course,
 .additonal {
@@ -155,41 +175,44 @@ h3{
 
 .inputcomment {
   width: 80%;
-  padding-bottom: px;
+  padding: 10px;
   border: 1px solid rgb(25, 25, 88);
   border-radius: 5px;
   outline-style: none;
-  color: #b4b4e4;
+  color: #384860;
+  font-size: 100%;
 }
 
 .input1,
 .email {
   width: 80%;
-  padding: 10px 0 10px 0;
+  padding: 10px;
   border: 1px solid rgb(25, 25, 88);
   outline-style: none;
   border-radius: 5px;
   margin-bottom: 15px;
-  color: #b4b4e4;
+  color: #384860;
   font-family: Poppins, sans-serif;
   font-size: 100%;
 }
 
 .submit {
-  border: 1px solid #000080;
+  border: 1px solid #50d8b8;
   border-radius: 5px;
   width: 22%;
   height: 30px;
   margin-bottom: 10px;
-  color: #b4b4e4;
-  background-color: #0c005a;
+  color: #50d8b8;
+  background-color: #0a192f;
 }
-ul.courselist li,
-ul.skills li {
+
+ul.courselist,
+ul.skills {
   padding-top: 15px;
-  color: #b4b4e4;
+  color: #384860;
   list-style: square;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -199,10 +222,11 @@ ul.skills li {
   left: 0;
   bottom: 0;
 }
+
 .footerp {
   text-align: center;
-  color: #b4b4e4;
 }
+
 ul.footer-icons {
   display: flex;
   align-items: center;
@@ -210,8 +234,9 @@ ul.footer-icons {
   margin: 0%;
   padding: 0%;
 }
+
 a.icons {
-  color: #ce9b01;
+  color: #50d8b8;
   padding: 10px;
   margin: 0%;
 }
