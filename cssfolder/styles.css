@@ -50,6 +50,7 @@ h3 {
 
 .main {
   position: relative;
+  width: 10%;
   padding: 10px;
   font-size: 15px;
   top: 10px;
@@ -71,23 +72,27 @@ li.live {
   border-radius: 5px;
 }
 
-p,
-.a-of-portfolio {
+p {
   color: #384860;
+}
+.a-of-portfolio,
+.portfolio-ps,
+.portfolio-course-Ps {
+  color: #ccd6f6;
 }
 
 .Ps {
-  height: 150px;
+  height: 100px;
   text-align: justify;
   line-height: 25px;
 }
 
 .portfolio-course-Ps {
-  margin-top: -25px;
+  margin-top: -15px;
 }
 
 .flexcontainer {
-  margin-top: 100px;
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -118,7 +123,7 @@ p,
 
 .buttom-center {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 10%;
   right: 10%;
 }
@@ -157,6 +162,7 @@ p,
   width: 100%;
   height: 200px;
   border-radius: 5px;
+  opacity: 0.5;
 }
 
 .courselist,
@@ -169,7 +175,7 @@ p,
 .course,
 .additonal {
   width: 30%;
-  margin-top: 100px;
+  margin-top: 60px;
   height: 450px;
 }
 
@@ -208,7 +214,6 @@ p,
 
 ul.courselist,
 ul.skills {
-  padding-top: 15px;
   color: #384860;
   list-style: square;
 }
@@ -281,10 +286,7 @@ a.icons {
     margin: 0px auto;
     padding-bottom: 10px;
   }
-  h1 {
-    font-size: medium;
-    text-align: center;
-  }
+
   p {
     font-size: 100%;
   }
