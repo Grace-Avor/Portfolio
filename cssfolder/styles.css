@@ -138,6 +138,11 @@ p {
   padding-bottom: 2%;
 }
 
+.myname{
+  color: #50d8b8;
+  padding-left: 20px;
+}
+
 .flexcontainer3 {
   display: flex;
   flex-direction: row;
