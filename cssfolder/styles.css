@@ -315,6 +315,10 @@ a.icons {
     padding: 0px 20px 20px 20px;
   }
 
+  .mail{
+    padding: 0px 20px 20px 20px;
+  }
+
   .contactdiv {
     height: 380px;
   }
@@ -366,6 +370,7 @@ a.icons {
 
   .footer {
     height: 70px;
+    margin-top: 80px;
   }
 
   .input1,
