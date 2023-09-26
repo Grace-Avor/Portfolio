@@ -16,19 +16,22 @@
     <title>My portfolio</title>
   </head>
   <body>
-    <header>
-      <div class="main">
-        <ul>
-          <li>
-            <a
-              href="https://docs.google.com/document/d/1OmtMRpsIE12BGkICmDLw554QacPKCWspb01IZNCLEd4/edit?usp=drivesdk"
-            >
-              <i class="fa-solid fa-user"></i
-            ></a>
-          </li>
-        </ul>
+    <div class="head">
+      <a
+        href="https://docs.google.com/document/d/1OmtMRpsIE12BGkICmDLw554QacPKCWspb01IZNCLEd4/edit?usp=drivesdk"
+        class="active"
+      > Resume
+        <i class="fa-solid fa-user"></i
+      > </a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#AboutMe">About</a>
       </div>
-    </header>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
     <div class="flexcontainer" id="courses">
       <div class="introduction">
@@ -75,35 +78,6 @@
       <div class="ignore"></div>
       <div class="About1">
         <div class="image-container project-container">
-          <img src="images/portfolio.jpg" class="images" alt="" />
-          <div class="buttom-center">
-            <h3>Portfolio</h3>
-            <p class="portfolio-course-Ps">HTML + CSS + JS</p>
-            <p class="portfolio-ps">
-              A responsive portfolio showing important informations about me
-            </p>
-            <ul>
-              <li class="live">
-                <a
-                  href="https://grace-avor.github.io/Src/"
-                  class="a-of-portfolio"
-                  ><b>Live</b></a
-                >
-              </li>
-              <li class="code">
-                <a
-                  href="https://github.com/Grace-Avor/Src"
-                  class="a-of-portfolio"
-                >
-                  <b>Code</b></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="About2">
-        <div class="image-container project-container">
           <img src="images/weather.jpg" class="images" alt="" />
           <div class="buttom-center">
             <h3>Weather App</h3>
@@ -130,20 +104,50 @@
           </div>
         </div>
       </div>
-      <div class="About3">
+      <div class="About2">
         <div class="image-container project-container">
-          <img src="images/Creative-writing.png" class="images" alt="" />
+          <img src="images/Poster.png" class="images" alt="" />
           <div class="buttom-center">
-            <h3>Passion Write</h3>
+            <h3>Portfolio</h3>
+            <p class="portfolio-course-Ps">React</p>
             <p class="portfolio-ps">
-              A website where i write things I am passionate about
+              A responsive Movie-App that fetches API form IMDb, displaying the top-rated movies 
             </p>
             <ul>
               <li class="live">
-                <a href="" class="a-of-portfolio"><b>Live</b></a>
+                <a
+                  href="https://movie-app-three-chi.vercel.app/"
+                  class="a-of-portfolio"
+                  ><b>Live</b></a
+                >
               </li>
               <li class="code">
-                <a href="" class="a-of-portfolio"><b>Code</b></a>
+                <a
+                  href="https://github.com/Grace-Avor/Movie-App-HNG"
+                  class="a-of-portfolio"
+                >
+                  <b>Code</b></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="About3">
+        <div class="image-container project-container">
+          <img src="images/img.9.jpeg" class="images" alt="" />
+          <div class="buttom-center">
+            <h3>Passion Write</h3>
+            <p class="portfolio-ps">
+              A gallery with static images showing glass houses of my fantasies
+            </p>
+            <ul>
+              <li class="live">
+                <a href="https://hng-gallery1.vercel.app/" class="a-of-portfolio"><b>Live</b></a>
+              </li>
+              <li class="code">
+                <a href="https://github.com/Grace-Avor/HNG-Gallery" class="a-of-portfolio"><b>Code</b></a>
               </li>
             </ul>
           </div>

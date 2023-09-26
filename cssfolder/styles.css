@@ -46,6 +46,41 @@ address {
 h3 {
   color: #ccd6f6;
 }
+
+.head {
+  overflow: hidden;
+  position: relative;
+}
+
+.head #myLinks {
+  display: none;
+}
+
+.head a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+.head a.icon {
+  background: #0a192f;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*.head a:hover {
+  background-color: #ddd;
+  color: black;
+}*/
+
+.active {
+  color: white;
+}
+
 .intro {
   color: #50d8b8;
 }
